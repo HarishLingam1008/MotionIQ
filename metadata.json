@@ -1,0 +1,6 @@
+{
+  "name": "MotionIQ",
+  "description": "Smart fitness and step tracker app with live activity tracking, daily goals, analytics, and health tools.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

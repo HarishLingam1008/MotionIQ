@@ -1,0 +1,81 @@
+package com.example.data.coach
+
+/**
+ * Primary Intents categorized by fitness and lifestyle domains.
+ */
+enum class CoachIntent {
+    STEPS,
+    WALKING,
+    RUNNING,
+    EXERCISE,
+    WORKOUT,
+    CALORIES,
+    BMI,
+    WEIGHT_LOSS,
+    WEIGHT_GAIN,
+    WATER,
+    HYDRATION,
+    FOOD,
+    FOOD_IDENTIFICATION,
+    FOOD_CALORIES,
+    FOOD_PROTEIN,
+    FOOD_CARBOHYDRATES,
+    FOOD_FAT,
+    FOOD_FIBER,
+    FOOD_HEALTHINESS,
+    FOOD_WEIGHT_LOSS,
+    FOOD_WEIGHT_GAIN,
+    FOOD_BREAKFAST,
+    FOOD_LUNCH,
+    FOOD_DINNER,
+    FOOD_PORTION,
+    FOOD_ALTERNATIVE,
+    FOOD_PREPARATION,
+    FOOD_COMBINATION,
+    PROTEIN,
+    CARBOHYDRATES,
+    FRUITS,
+    VEGETABLES,
+    BREAKFAST,
+    LUNCH,
+    DINNER,
+    SNACK,
+    PRE_WORKOUT,
+    POST_WORKOUT,
+    SLEEP,
+    RECOVERY,
+    FITNESS_SCORE,
+    PROGRESS,
+    ANALYTICS,
+    GOALS,
+    DISTANCE,
+    ACTIVITY,
+    INACTIVITY,
+    MOTIVATION,
+    GENERAL_FITNESS,
+    GREETING,
+    MEDICAL_SAFETY,
+    CLARIFICATION,
+    UNKNOWN
+}
+
+/**
+ * Secondary Intents specifying the communicative goal or inquiry angle.
+ */
+enum class CoachSecondaryIntent {
+    DAILY_TARGET,
+    PROGRESS_CHECK,
+    HOW_TO,
+    RECOMMENDATION,
+    CALCULATION,
+    EXPLANATION,
+    COMPARISON,
+    TROUBLESHOOTING,
+    PERSONALIZED_ADVICE,
+    MEAL_PLAN,
+    PRE_WORKOUT,
+    POST_WORKOUT,
+    BEGINNER_ADVICE,
+    ADVANCED_ADVICE,
+    GENERAL
+}
